@@ -1,0 +1,2 @@
+class BrowserManagerError(Exception):
+    pass

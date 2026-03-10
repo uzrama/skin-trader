@@ -1,0 +1,2 @@
+class MarketError(Exception):
+    pass

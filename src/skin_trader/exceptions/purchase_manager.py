@@ -1,0 +1,2 @@
+class PurchaseManagerError(Exception):
+    pass
