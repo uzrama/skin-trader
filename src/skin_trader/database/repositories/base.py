@@ -1,0 +1,19 @@
+from abc import ABC, abstractmethod
+
+
+class BaseRepository[RT](ABC):
+    ...
+    # @abstractmethod
+    # async def _get_many(self) -> list[RT]: ...
+    #
+    # @abstractmethod
+    # async def _get(self, id: int) -> RT | None: ...
+    #
+    # @abstractmethod
+    # async def _create(self, entity: RT) -> RT: ...
+    #
+    # @abstractmethod
+    # async def _update(self, id: int, entity: RT) -> RT | None: ...
+    #
+    # @abstractmethod
+    # async def _delete(self, id: int) -> bool: ...
